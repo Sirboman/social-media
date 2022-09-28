@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style/main.css">
+    <!-- IONICONS CDN-->
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+
+    <!-- ICONSCOUT CDN-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+    <!-- MAIN CSS-->
+</head>
+<body>
+    <nav>
+
+        <div class="container">
+            <h2 class="logo">SIR<span>BOMAN</span></h2>
+        
+            <div class="search">
+                <ion-icon name="search-outline"></ion-icon>
+                <input type="search" placeholder="search for creators, inspirations, and projects">
+            </div>
+
+            <div class="create">
+
+                <label for="create-post" class="btn btn-primary">Create</label>
+                <div class="profile__photo">
+                    <img src="/images/don.JPG" alt="">
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+    
+    <!---------------- MAIN --------------------->
+
+    <main>
+        <div class="container">
+            <!--========== LEFT ===========-->
+            <div class="left">
+                <a href="" class="profile">
+                    <div class="profile__photo">
+                        <img src="/images/don.JPG">
+                    </div>
+                    <div class="handle">
+                        <h4>Henry Patrick</h4>
+                        <p class="text-muted">@sir_boman</p>
+                    </div>
+                </a>
+
+            <!-- =========== SIDEBAR ==========-->
+                <div class="sidebar">
+                    <a  class="menu-item active">
+                        <span><ion-icon name="home"></ion-icon></span><h3>Home</h3>
+                    </a>
+                    <a  class="menu-item">
+                        <span><ion-icon name="home"></ion-icon></span><h3>Explore</h3>
+                    </a>
+                    <a class="menu-item" id="notifications">
+                        <span><ion-icon name="home"><small class="notification-count">10+</small></ion-icon></span><h3>Notifications</h3>
+                    
+                
+                        <!-- ================ NOTIFICATION POPUP ==========-->
+                        <div class="notifications-popup">
+                            <div>
+                                <div class="profile__photo">
+                                    <img src="/images/don.JPG" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>jennifer Chi</b> accepted your friend request
+                                    <small class="text-muted">2 DAYS AGO</small>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="profile__photo">
+                                    <img src="/images/don.JPG" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>jennifer Chi</b> accepted your friend request
+                                    <small class="text-muted">2 DAYS AGO</small>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="profile__photo">
+                                    <img src="/images/don.JPG" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>David Dalton</b> and <b>553 others</b> liked your post
+                                    <small class="text-muted">1 HOUR AGO</small>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="profile__photo">
+                                    <img src="/images/don.JPG" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>jennifer Chi</b> commented on your post
+                                    <small class="text-muted">JUST NOW</small>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="profile__photo">
+                                    <img src="/images/don.JPG" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Frank Washington</b> accepted your friend request
+                                    <small class="text-muted">2 HOURS AGO</small>
+                                </div>
+                            </div>
+                        
+                            <div>
+                                <div class="profile__photo">
+                                    <img src="/images/don.JPG" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>jennifer Chi</b> sent you a message
+                                    <small class="text-muted">5 MINUTES AGO</small>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="profile__photo">
+                                    <img src="/images/don.JPG" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    You missed a video call from <b>Jennifer Chi</b>
+                                    <small class="text-muted">10 MINUTES AGO</small>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="profile__photo">
+                                    <img src="/images/don.JPG" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Lexy Washington</b> accepted your friend request
+                                    <small class="text-muted">JUST NOW</small>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- ========= END NOTIFICATION POPUP ============-->
+                
+                    <a  class="menu-item" id="messages-notification">
+                        <span><ion-icon name="home"><small class="notification-count">7</small></ion-icon></span><h3>Messages</h3>
+                    </a>
+                    <a  class="menu-item">
+                        <span><ion-icon name="home"></ion-icon></span><h3>Bookmarks</h3>
+                    </a>
+                    <a  class="menu-item">
+                        <span><ion-icon name="home"></ion-icon></span><h3>Analytics</h3>
+                    </a>
+                    <a  class="menu-item">
+                        <span><ion-icon name="home"></ion-icon></span><h3>Theme</h3>
+                    </a>
+                    <a  class="menu-item active">
+                        <span><ion-icon name="home"></ion-icon></span><h3>Settings</h3>
+                    </a>
+                </div>
+                <!--========== END OF SIDE BAR ===========-->
+
+                <label for="create-post" class="btn btn-primary">Create Post</label>
+            </div>
+
+            <!--========= MIDDLE ===========-->
+            <div class="middle">
+                <!-- ============ STORIES ==========-->
+                <div class="stories">
+                    <div class="story">
+                        <div class="profile__photo">
+                            <img src="/images/don.JPG">
+                        </div>
+                        <p class="name">Your Story</p>
+                    </div>
+
+                    <div class="story">
+                        <div class="profile__photo">
+                            <img src="/images/don.JPG">
+                        </div>
+                        <p class="name">Victory Gedam</p>
+                    </div>
+
+                    <div class="story">
+                        <div class="profile__photo">
+                            <img src="/images/don.JPG">
+                        </div>
+                        <p class="name">Jenny Chi</p>
+                    </div>
+
+                    <div class="story">
+                        <div class="profile__photo">
+                            <img src="/images/don.JPG">
+                        </div>
+                        <p class="name">Frank Patrick</p>
+                    </div>
+
+                    <div class="story">
+                        <div class="profile__photo">
+                            <img src="/images/don.JPG">
+                        </div>
+                        <p class="name">Ogochukwu Chiejinna</p>
+                    </div>
+
+                    <div class="story">
+                        <div class="profile__photo">
+                            <img src="/images/don.JPG">
+                        </div>
+                        <p class="name">Official_Kubu</p>
+                    </div>
+                </div>
+                <!-- ======== END OF STORIES =======-->
+                
+                <form class="create-post">
+                     <div class="profile__photo">
+                        <img src="/images/don.JPG">
+                     </div>
+                     <input type="text" placeholder="what's on your mind, Henry?" id="create-post">
+                     <input type="submit" value="post" class="btn btn-primary">
+                </form>
+
+                <!-- ============= FEEDS ============ -->
+                <div class="feeds">
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile__photo">
+                                    <img src="/images/petdog.JPG" alt="petdog">
+                                </div>
+                                <div class="infot">
+                                    <h3>Lana Rose</h3>
+                                    <small>Dubai, 15 MINUTES AGO</small>
+                                    <span class="edit">
+                                        <i class="uil uil-ellipsis-h"></i>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="photo">
+                                <img src="/images/don.JPG">
+                            </div>
+
+                            <div class="action-button">
+                                <div class="interaction-buttons">
+                                    <span><i class="uil uil-heart"></i></span>
+                                    <span><i class="uil uil-comment-dots"></i></span>
+                                    <span><i class="uil uil-share-alt"></i></span>
+
+                                </div>
+                                <div class="bookmark"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!--=========== RIGHT =============-->
+            <div class="right"></div>
+        </div>
+    </main>
+
+    <script src="/javascript/main.js"></script>
+</body>
+</html>
